@@ -1,6 +1,6 @@
 html {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 150%;
+    font-size: 125%;
     margin: 0 auto;
     width: 95%;
 }
@@ -34,10 +34,27 @@ figure p {
 header h1{
     font-family: 'Josefin Slab', serif;
     text-align: center;
-    margin: 0.5em;
-    font-size: 500%;
-    margin-bottom: 0;
+    font-size: 20vw;
+    margin: 0;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table, th, td {
+    font-size: 100%;
+    padding: 5px;
+  }
+
+th {
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+
+  tr:nth-child(even) {background-color: lightgray;}
 
 footer{
     text-align: center;
