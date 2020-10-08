@@ -1,0 +1,61 @@
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 150%;
+    margin: 0 auto;
+    width: 95%;
+}
+
+img {
+    width: 100%
+}
+
+/* Subheaddings */
+header p, header a, header h2, a+p, a+p+p {
+    text-align: center;
+    margin: 0;
+}
+
+h2, h3, h4{
+    text-align: center;
+    margin: 0;
+}
+
+
+figure {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    margin: 0, auto;
+}
+figure p {
+    font-size: 0.5em;
+}
+
+header h1{
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    margin: 0.5em;
+    font-size: 500%;
+    margin-bottom: 0;
+}
+
+footer{
+    text-align: center;
+    padding-top: 2em;
+}
+
+p {
+    text-align: justify;
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        width: 560px;        
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        width: 800px;
+    }
+}
