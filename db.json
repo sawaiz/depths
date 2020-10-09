@@ -1,24 +1,24 @@
 {
-    "series": [
+    "voyage": [
         {
             "title": "Pilot",
             "year": 2020,
             "participants": [
                 {
                     "name": "Sawaiz",
-                    "age": "Millennial",
+                    "age": "Early 90's",
                     "location": "Berlin"
                 },
                 {
-                    "name": "Terence",
-                    "age": "Millennial",
+                    "name": "Lee",
+                    "age": "Early 90's",
                     "location": "Atlanta"
                 }
             ],
-            "episode": [
+            "excursion": [
                 {
                     "theme": "Fall",
-                    "flavorText": "",
+                    "flavorText": "Chill is in the air, and leaves litter the ground.",
                     "startDate": "2020-10-11",
                     "endDate": "2020-10-17",
                     "selections": [
