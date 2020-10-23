@@ -68,8 +68,8 @@ td {
 
 tr:nth-child(even) {background-color: lightgray;}
 
-.excursion td:nth-child(1) { display: none; }
-.excursion th:nth-child(1) { display: none; }
+.excursionLocked td:nth-child(1) { display: none; }
+.excursionLocked th:nth-child(1) { display: none; }
 .excursion td:nth-child(3) { display: none; }
 .excursion th:nth-child(3) { display: none; }
 .excursion td:nth-child(4) { display: none; }
