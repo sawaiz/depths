@@ -21,10 +21,15 @@ var db = {
                     "flavorText": "Chill is in the air, and leaves litter the ground.",
                     "startDate": "2020-10-11",
                     "endDate": "2020-10-17",
+                    "playlists": {
+                        "spotify": "https://open.spotify.com/playlist/5veuoefpfirzNsXkJIxwmB?si=rgHfwzipQXaYv9fzxNuM7Q",
+                        "youtube": "https://www.youtube.com/playlist?list=PLvg5sTo20OUDFjNe4x1BSdJVcr8hMQ6BD",
+                        "youtubeMusic": "https://music.youtube.com/playlist?list=PLvg5sTo20OUDFjNe4x1BSdJVcr8hMQ6BD",
+                    },
                     "selections":
                         [
                             {
-                                "voyager": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Several Times I",
                                 "artist": "Pieter Nooten & Michael Brook",
                                 "album": "Sleeps with the Fishes",
@@ -33,7 +38,7 @@ var db = {
                             },
                             {
 
-                                "voyager": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Blood",
                                 "artist": "The Middle East",
                                 "album": "The Recordings of the Middle East",
@@ -41,7 +46,7 @@ var db = {
                                 "youtube": "https://youtu.be/9FxfjJa_24g"
                             },
                             {
-                                "voyager": "Terence",
+                                "seeker": "Terence",
                                 "song": "Movies",
                                 "artist": "Weyes Blood",
                                 "album": "Titanic Rising",
@@ -49,7 +54,7 @@ var db = {
                                 "youtube": "https://youtu.be/xniRJsus8pk"
                             },
                             {
-                                "voyager": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Scott Pilgrim v. My GPA",
                                 "artist": "Mom Jeans",
                                 "album": "Best Buds",
@@ -57,7 +62,7 @@ var db = {
                                 "youtube": "https://youtu.be/zOEuZfjv3jM"
                             },
                             {
-                                "voyager": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Rangers",
                                 "artist": "A Fine Frenzy",
                                 "album": "One Cell in the Sea",
@@ -65,7 +70,7 @@ var db = {
                                 "youtube": "https://youtu.be/l4mCcQZ7Vjk"
                             },
                             {
-                                "voyager": "Alice",
+                                "seeker": "Alice",
                                 "song": "Naked as We Came",
                                 "artist": "Iron & Wine",
                                 "album": "Our Endless Numbered Days",
@@ -73,7 +78,7 @@ var db = {
                                 "youtube": "https://youtu.be/LbDtXmpi5r4"
                             },
                             {
-                                "voyager": "Chris",
+                                "seeker": "Chris",
                                 "song": "Question",
                                 "artist": "Old 97's",
                                 "album": "Satellite Rides",
@@ -81,7 +86,7 @@ var db = {
                                 "youtube": "https://youtu.be/_-5oLJkUSjA"
                             },
                             {
-                                "voyager": "Linh",
+                                "seeker": "Linh",
                                 "song": "September in the Rain",
                                 "artist": "Roy Hargrove",
                                 "album": "Approaching Standards",
@@ -89,7 +94,7 @@ var db = {
                                 "youtube": "https://youtu.be/iDmSVTH7Qq0"
                             },
                             {
-                                "voyager": "Mai",
+                                "seeker": "Mai",
                                 "song": "Samurai",
                                 "artist": "Jazztronik",
                                 "album": "Jazztronik",
@@ -97,7 +102,7 @@ var db = {
                                 "youtube": "https://youtu.be/LP0CS_epbcc"
                             },
                             {
-                                "voyager": "Manja",
+                                "seeker": "Manja",
                                 "song": "September",
                                 "artist": "Earth Wind & Fire",
                                 "album": "The Best of Earth, Wind & Fire, Vol. 1",
@@ -113,6 +118,6 @@ var db = {
 
 
 
-function createTable(data){
-    
+function createTable(data) {
+
 }
