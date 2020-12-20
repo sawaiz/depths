@@ -66,7 +66,7 @@ th {
 }
 
 td {
-    max-width: 3000px;
+    max-width: 50vw;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
