@@ -35,7 +35,7 @@ var db = {
                                 "artist": "Pieter Nooten & Michael Brook",
                                 "album": "Sleeps with the Fishes",
                                 "year": 1987,
-                                "youtube": "https://youtu.be/WhEv2hTUvlc"
+                                "link": "https://youtu.be/WhEv2hTUvlc"
                             },
                             {
 
@@ -44,7 +44,7 @@ var db = {
                                 "artist": "The Middle East",
                                 "album": "The Recordings of the Middle East",
                                 "year": 2009,
-                                "youtube": "https://youtu.be/9FxfjJa_24g"
+                                "link": "https://youtu.be/9FxfjJa_24g"
                             },
                             {
                                 "seeker": "Terence",
@@ -52,7 +52,7 @@ var db = {
                                 "artist": "Weyes Blood",
                                 "album": "Titanic Rising",
                                 "year": 2019,
-                                "youtube": "https://youtu.be/xniRJsus8pk"
+                                "link": "https://youtu.be/xniRJsus8pk"
                             },
                             {
                                 "seeker": "Andrew",
@@ -60,7 +60,7 @@ var db = {
                                 "artist": "Mom Jeans",
                                 "album": "Best Buds",
                                 "year": 2016,
-                                "youtube": "https://youtu.be/zOEuZfjv3jM"
+                                "link": "https://youtu.be/zOEuZfjv3jM"
                             },
                             {
                                 "seeker": "Sawaiz",
@@ -68,7 +68,7 @@ var db = {
                                 "artist": "A Fine Frenzy",
                                 "album": "One Cell in the Sea",
                                 "year": 2007,
-                                "youtube": "https://youtu.be/l4mCcQZ7Vjk"
+                                "link": "https://youtu.be/l4mCcQZ7Vjk"
                             },
                             {
                                 "seeker": "Alice",
@@ -76,7 +76,7 @@ var db = {
                                 "artist": "Iron & Wine",
                                 "album": "Our Endless Numbered Days",
                                 "year": 2004,
-                                "youtube": "https://youtu.be/LbDtXmpi5r4"
+                                "link": "https://youtu.be/LbDtXmpi5r4"
                             },
                             {
                                 "seeker": "Chris",
@@ -84,7 +84,7 @@ var db = {
                                 "artist": "Old 97's",
                                 "album": "Satellite Rides",
                                 "year": 2001,
-                                "youtube": "https://youtu.be/_-5oLJkUSjA"
+                                "link": "https://youtu.be/_-5oLJkUSjA"
                             },
                             {
                                 "seeker": "Linh",
@@ -92,7 +92,7 @@ var db = {
                                 "artist": "Roy Hargrove",
                                 "album": "Approaching Standards",
                                 "year": 1994,
-                                "youtube": "https://youtu.be/iDmSVTH7Qq0"
+                                "link": "https://youtu.be/iDmSVTH7Qq0"
                             },
                             {
                                 "seeker": "Mai",
@@ -100,7 +100,7 @@ var db = {
                                 "artist": "Jazztronik",
                                 "album": "Jazztronik",
                                 "year": 2005,
-                                "youtube": "https://youtu.be/LP0CS_epbcc"
+                                "link": "https://youtu.be/LP0CS_epbcc"
                             },
                             {
                                 "seeker": "Manja",
@@ -108,7 +108,7 @@ var db = {
                                 "artist": "Earth Wind & Fire",
                                 "album": "The Best of Earth, Wind & Fire, Vol. 1",
                                 "year": 1978,
-                                "youtube": "https://youtu.be/3cKtSlsYVEU"
+                                "link": "https://youtu.be/3cKtSlsYVEU"
                             }
                         ]
                 },
@@ -313,7 +313,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Lightshow Paralysis",
                                 "artist": "Frontierer",
                                 "album": "Orange Mathematics",
@@ -321,7 +321,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=kF3BXJXYXEk"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "reborn",
                                 "artist": "sød ven",
                                 "album": "reborn",
@@ -329,7 +329,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=7XvWR2l9Xgo"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Rain of a Thousand Flames",
                                 "artist": "Rhapsody",
                                 "album": "Rain of a Thousand Flames",
@@ -337,7 +337,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=vx-BuGDmpjg"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Conga Fury",
                                 "artist": "Juno Reactor",
                                 "album": "Bible of Dreams",
@@ -345,7 +345,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=io6Ny5SPJH4"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Teenage Daughters",
                                 "artist": "Martina McBride",
                                 "album": "Eleven",
@@ -353,7 +353,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=pq4vB5PWq04"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Black Mission Goggles",
                                 "artist": "Man Man",
                                 "album": "Six Demon Bag",
@@ -361,7 +361,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=gy9lPhlyTSs"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Abataka",
                                 "artist": "Ida Engberg",
                                 "album": "It Began In Africa",
@@ -369,7 +369,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=P_0KR1X-Y_4"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Being so Normal",
                                 "artist": "Peach Pit",
                                 "album": "Being So Normal",
@@ -377,7 +377,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=3jxiD3Up3mw"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Midnight City",
                                 "artist": "M83",
                                 "album": "Hurry Up, We're Dreaming",
@@ -385,7 +385,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=7ID-1jzek4Y"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Synapse",
                                 "artist": "Linea Aspera",
                                 "album": "Linea Aspera",
@@ -407,7 +407,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Ceux qui rêvent",
                                 "artist": "Pomme",
                                 "album": "À peu près",
@@ -415,7 +415,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=1amMJN7joko"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Décollage",
                                 "artist": "Thievery Corporation",
                                 "album": "Saudade",
@@ -423,7 +423,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=dtlVpt64wFQ"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Cause = Time",
                                 "artist": "Broken Social Scene",
                                 "album": "You Forgot It In People",
@@ -431,7 +431,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=lNqIL9huf_c"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Mind Over Matter",
                                 "artist": "Young the Giant",
                                 "album": "Mind Over Matter",
@@ -439,7 +439,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=PqdISWdk2eg"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Futon Couch",
                                 "artist": "Missy Higgins",
                                 "album": "Solastalgia",
@@ -447,7 +447,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=MZTOAjs9geY"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Mama India (Shantrip)",
                                 "artist": "Technical Hitch",
                                 "album": "Mama India (Shantrip)",
@@ -455,7 +455,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=YWudcpwpfjI"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Redemption Song",
                                 "artist": "Bob Marley & The Wailers",
                                 "album": "Uprising",
@@ -463,7 +463,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=1A95dcLxAuA"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "留学生",
                                 "artist": "Monkey Majik",
                                 "album": "COLLABORATED",
@@ -471,7 +471,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=0fcQXtB74Ks"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "We Got the Power",
                                 "artist": "Gorillaz",
                                 "album": "Humanz",
@@ -479,7 +479,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=W2M_7Et8o2c"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Tunak Tunak Tun",
                                 "artist": "Daler Mehndi",
                                 "album": "Tunak Tunak Tun",
@@ -501,7 +501,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "In The Garage",
                                 "artist": "Weezer",
                                 "album": "Weezer",
@@ -509,7 +509,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=wTlOIQHwtJU"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "(No One Knows Me) Like the Piano",
                                 "artist": "Sampha",
                                 "album": "Process",
@@ -517,7 +517,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=GkDSaWO3G4E"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Rivers of Babylon",
                                 "artist": "Boney M.",
                                 "album": "Nightflight to Venus",
@@ -525,7 +525,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=rA6wmf-MUP8"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Bennie And The Jets",
                                 "artist": "Elton John",
                                 "album": "Goodbye Yellow Brick Road",
@@ -533,7 +533,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=V5zFpctrgjs"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Krakowski spleen",
                                 "artist": "Maanam",
                                 "album": "Nocny Patrol",
@@ -541,7 +541,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=YOTRLxXdMuQ"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Take Your Time (Coming Home)",
                                 "artist": "fun.",
                                 "album": "Aim and Ignite",
@@ -549,7 +549,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=4vq0wz-pA9M"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "アルコール3%",
                                 "artist": "ANTENA",
                                 "album": "モーンガータ",
@@ -557,7 +557,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=NtEYx5OvWNE"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "11 Miles",
                                 "artist": "Songs Of Water",
                                 "album": "Stars and Dust",
@@ -565,7 +565,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=FqSAF15dOH4"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Black Sheep Boy",
                                 "artist": "Okkervil River",
                                 "album": "Black Sheep Boy",
@@ -573,7 +573,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=eEJY8Ciq7gA"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "South Of Everything",
                                 "artist": "Kate Campbell",
                                 "album": "Songs From The Levee",
@@ -595,7 +595,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Deep Burn Blue",
                                 "artist": "The Paper Kites",
                                 "album": "On the Corner Where You Live",
@@ -603,7 +603,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=4VjnlYL37kg"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Children of Termina",
                                 "artist": "ROZEN",
                                 "album": "Children of Termina",
@@ -611,7 +611,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=YUaQjjsW7Jk"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Introitus: Requiem K. 626",
                                 "artist": "W.A. Mozart",
                                 "album": "Mozart: Requiem Realisations",
@@ -619,7 +619,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=M1HZk2vvvCk"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Earthquake",
                                 "artist": "FKJ",
                                 "album": "Ylang Ylang EP",
@@ -627,7 +627,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=CcsPZe8r4VU"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Two Weeks",
                                 "artist": "FKA twigs",
                                 "album": "LP1",
@@ -635,7 +635,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=W0Q72E2tb18"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Motion",
                                 "artist": "Boy Harsher",
                                 "album": "Country Girl Uncut",
@@ -643,7 +643,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=cwINA7UaEP4"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Lento e Largo - Tranquillissimo",
                                 "artist": "Henryk Górecki",
                                 "album": "Górecki: Symphony No. 3",
@@ -651,7 +651,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=HN2DiY5OXF4"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "I Saw Mommy Kissing Santa Claus",
                                 "artist": "Amy Winehouse",
                                 "album": "The Gospel According To Christmas",
@@ -659,7 +659,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=THuSiZxc04U"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "I Only Have Eyes for You",
                                 "artist": "The Flamingos",
                                 "album": "Flamingo Serenade",
@@ -667,7 +667,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=1_urvud-Oi0"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Video",
                                 "artist": "Ben Folds Five",
                                 "album": "Ben Folds Five",
@@ -689,7 +689,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "I Need A Forest Fire",
                                 "artist": "James Blake",
                                 "album": "The Colour In Anything",
@@ -697,7 +697,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=LGPNEsr0MtI"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Baby, It's Cold Outside",
                                 "artist": "Johnny Mercer",
                                 "album": "Capitol Goes To The Movies",
@@ -705,7 +705,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=5iUlPWzIIEE"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Wherever I Go",
                                 "artist": "Mark Knopfler",
                                 "album": "Tracker",
@@ -713,7 +713,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=_iubAKWyG4w"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "The Breeze",
                                 "artist": "Dr. Dog",
                                 "album": "Fate",
@@ -721,7 +721,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=q434FHMhZFI"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Verona",
                                 "artist": "Lastlings",
                                 "album": "Verona",
@@ -729,7 +729,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=WcxrmigYI5s"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Rock House",
                                 "artist": "Ernie Freeman",
                                 "album": "Comin' Home Baby",
@@ -737,7 +737,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=es_4p6hiq6I"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "New York State of Mind",
                                 "artist": "Mel Tormé",
                                 "album": "Mel Torme' And Friends",
@@ -745,7 +745,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=miqIG7cgqy0"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "The Christmas Song",
                                 "artist": "She & Him",
                                 "album": "A Very She & Him Christmas",
@@ -753,7 +753,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=N6ENB-wEKmc"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Video",
                                 "artist": "India.Arie",
                                 "album": "Acoustic Soul",
@@ -761,7 +761,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=dhygw-YlGyk"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Ode for Lovers",
                                 "artist": "Pogo",
                                 "album": "Kindred Shadow",
@@ -783,7 +783,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "I'm not a good person",
                                 "artist": "Pat The Bunny",
                                 "album": "Probably Nothing, Possibly Everything",
@@ -791,7 +791,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=iWTi4d56JRE"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "All These Years",
                                 "artist": "Kenichiro Nishihara",
                                 "album": "Sincerely...",
@@ -799,7 +799,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=OcAVqPIm9Vk"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Bullets",
                                 "artist": "Archive",
                                 "album": "Controlling Crowds",
@@ -807,7 +807,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=kRvrsm6_msI"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "I'll Still Have Me",
                                 "artist": "Cyn",
                                 "album": "Mood Swing",
@@ -815,7 +815,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=n9STtfHJxJM"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Spanish Sahara",
                                 "artist": "Foals",
                                 "album": "Total Life Forever",
@@ -823,7 +823,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=UNmz61Lf1vk"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Blue",
                                 "artist": "Joni Mitchell",
                                 "album": "Blue",
@@ -831,7 +831,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=Nu7aOan-lds"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "A Dialogue",
                                 "artist": "Drab Majesty",
                                 "album": "Modern Mirror",
@@ -839,7 +839,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=3KMjuSFgSQQ"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Youth",
                                 "artist": "Daughter",
                                 "album": "If You Leave",
@@ -847,7 +847,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=ua6PsyUR2mU"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Drift Away",
                                 "artist": "Dobie Gray",
                                 "album": "Drift Away",
@@ -855,7 +855,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=OnDu1HHOo78"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Rose-Colored Boy",
                                 "artist": "Paramore",
                                 "album": "After Laughter",
@@ -877,7 +877,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Christmas Eve",
                                 "artist": "Tatsuro Yamashita",
                                 "album": "Melodies",
@@ -885,7 +885,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=pYP_1MZyWBM"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Santa Claus Is Comin' to Town",
                                 "artist": "Bruce Springsteen",
                                 "album": "Live at C.W. Post College",
@@ -893,7 +893,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=fLI-vMZ4HEw"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Santa Claus Goes Straight To The Ghetto",
                                 "artist": "Nate Dogg",
                                 "album": "Christmas On Death Row",
@@ -901,7 +901,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=QyhntnBYQ68"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Christmas Unicorn",
                                 "artist": "Sufjan Stevens",
                                 "album": "Silver & Gold",
@@ -909,7 +909,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=O1PCYhe1DW0"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "White Christmas",
                                 "artist": "The Drifters",
                                 "album": "Clyde McPhatter & The Drifters",
@@ -917,7 +917,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=bQ6LIS6m8qE"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Christmas Memories",
                                 "artist": "She & Him",
                                 "album": "Christmas Party",
@@ -925,7 +925,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=aIhGOY_bEH4"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Christmas In Hollis",
                                 "artist": "Run-D.M.C.",
                                 "album": "A Very Special Christmas",
@@ -933,7 +933,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=C0b8FqocXcU"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Bozicna",
                                 "artist": "Iztok Mlakar",
                                 "album": "Balade in stroncade",
@@ -941,7 +941,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=YNV5_Pg17Vs"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Christmas Day",
                                 "artist": "Dido",
                                 "album": "Platinum Chrstmas",
@@ -949,7 +949,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=bQ1EH1KKGAY"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Driving Home for Christmas",
                                 "artist": "Chris Rea",
                                 "album": "New Light Through Old Windows",
@@ -971,7 +971,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Happy New Year",
                                 "artist": "ABBA",
                                 "album": "Super Trouper",
@@ -979,7 +979,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=dpdz82zW0kU"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Fire Flower",
                                 "artist": "Summer Salt",
                                 "album": "Favorite Holiday, Vol. 1",
@@ -987,7 +987,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=JcxLNrA-WGs"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "T. Time",
                                 "artist": "Smolik",
                                 "album": "Smolik",
@@ -995,7 +995,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=qAnjcYcIKio"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "This Year",
                                 "artist": "The Mountain Goats",
                                 "album": "The Sunset Tree",
@@ -1003,7 +1003,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=yuZuvvuspj4"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Brand New World",
                                 "artist": "Hudson Mohawke",
                                 "album": "Lantern",
@@ -1011,7 +1011,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=DtMvv-3NX9w"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Don't Stop Me Now",
                                 "artist": "Queen",
                                 "album": "Jazz",
@@ -1019,7 +1019,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=RrDKoXWKMmY"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "My Way",
                                 "artist": "Def Tech",
                                 "album": "Def Tech",
@@ -1027,7 +1027,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=AbHzv3QeEC0"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Sunset",
                                 "artist": "The Midnight",
                                 "album": "Endless Summer",
@@ -1035,7 +1035,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=TRhdLg_Yxfo"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "1999",
                                 "artist": "Prince",
                                 "album": "1999",
@@ -1043,7 +1043,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=weUhBGA8mxo"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "1999",
                                 "artist": "Prince",
                                 "album": "1999",
@@ -1065,7 +1065,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Roads Go Ever On",
                                 "artist": "Clamavi De Profundis",
                                 "album": "Roads Go Ever On",
@@ -1073,7 +1073,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=0NZS_UxrunA"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "A Waltz For a Night",
                                 "artist": "Julie Delpy",
                                 "album": "Julie Delpy",
@@ -1081,7 +1081,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=kuGHsWI3RvU"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Dust Clears",
                                 "artist": "Clean Bandit",
                                 "album": "New Eyes",
@@ -1089,7 +1089,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=upomDRVzThc"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Game Changer",
                                 "artist": "Róisín Murphy",
                                 "album": "Róisín Machine",
@@ -1097,7 +1097,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=-hstZ4RvEM4"
                             },
                             {
-                                "name": "Ternece",
+                                "seeker": "Ternece",
                                 "song": "At a Gentle Pace",
                                 "artist": "Neils Children",
                                 "album": "Dimly Lit",
@@ -1105,7 +1105,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=-rTWKR_X4HA"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Thank You",
                                 "artist": "Dido",
                                 "album": "No Angel",
@@ -1113,7 +1113,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=Yj8ZufvGfvk"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "End of the World",
                                 "artist": "Mock Orange",
                                 "album": "Disguised As Ghosts",
@@ -1121,7 +1121,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=qCPrrn-Q7ek"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Message",
                                 "artist": "Will Joseph Cook",
                                 "album": "Message",
@@ -1129,7 +1129,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=Du_HA83rObw"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "It's the Sun",
                                 "artist": "The Polyphonic Spree",
                                 "album": "The Beginning Stages of...",
@@ -1137,7 +1137,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=oESCBaW0hjQ"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Canyon Moon",
                                 "artist": "Andrew McMahon in the Wilderness",
                                 "album": "Andrew McMahon In The Wilderness",
@@ -1159,7 +1159,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Fake Happy",
                                 "artist": "Paramore",
                                 "album": "After Laughter",
@@ -1167,7 +1167,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=hiF6SL2RTEs"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Calm It Down",
                                 "artist": "Sisyphus",
                                 "album": "Sisyphus",
@@ -1175,7 +1175,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=iUFVY5tbn1A"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Lost In Yesterday",
                                 "artist": "Tame Impala",
                                 "album": "The Slow Rush",
@@ -1183,7 +1183,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=Sr_gTknZooY"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Empire State Of Mind",
                                 "artist": "JAY-Z",
                                 "album": "The Blueprint 3",
@@ -1191,7 +1191,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=_ydMlTassYc"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Summer in the City",
                                 "artist": "The Lovin' Spoonful",
                                 "album": "Hums Of The Lovin' Spoonful",
@@ -1199,7 +1199,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=QT9_CJOw7E4"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Rhythm Nation",
                                 "artist": "Janet Jackson",
                                 "album": "Rhythm Nation",
@@ -1207,7 +1207,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=qC5GqbCtxbM"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Angels In Chelsea",
                                 "artist": "Rachel Platten",
                                 "album": "Wildfire",
@@ -1215,7 +1215,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=4BEWjuTs3to"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "The Palace (feat. Blake Hazard)",
                                 "artist": "The M Machine",
                                 "album": "Metropolis Pt. II",
@@ -1223,7 +1223,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=kfchRpqXJRA"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Everybody Wants To Be Famous",
                                 "artist": "Superorganism",
                                 "album": "Superorganism",
@@ -1231,7 +1231,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=xlQf8SkkOB8"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Metropolis",
                                 "artist": "Compuphonic",
                                 "album": "Metropolis",
@@ -1253,7 +1253,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Sawiaz",
+                                "seeker": "Sawiaz",
                                 "song": "Jealous Sea",
                                 "artist": "Meg Myers",
                                 "album": "Take Me To The Disco",
@@ -1261,7 +1261,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=nExbjrGQLks"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Nightcall",
                                 "artist": "Kavinsky",
                                 "album": "Nightcall",
@@ -1269,7 +1269,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=kIO2OHa9HDQ"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Lux Aeterna",
                                 "artist": "Clint Mansell",
                                 "album": "Requiem for a Dream",
@@ -1277,7 +1277,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=oc3Cq89P97Y"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Leave Me Alone",
                                 "artist": "KAYTRANADA",
                                 "album": "Leave Me Alone",
@@ -1285,7 +1285,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=I4FfCnraFTc"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Falling Short",
                                 "artist": "Låpsley",
                                 "album": "Long Way Home",
@@ -1293,7 +1293,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=9V-Yr_7x2Eg"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Never Catch Me",
                                 "artist": "Flying Lotus",
                                 "album": "You're Dead!",
@@ -1301,7 +1301,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=Fw63wyOxNtg"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Long Gone Lonesome Blues ",
                                 "artist": "Hank Williams",
                                 "album": "Long Gone Lonesome Blues ",
@@ -1309,7 +1309,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=esIK2-XvHM4"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Courage to Change",
                                 "artist": "Sia",
                                 "album": "Courage to Change",
@@ -1317,7 +1317,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=pM_NaSat5OE"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Thieves",
                                 "artist": "She & Him",
                                 "album": "Volume Two",
@@ -1325,7 +1325,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=ibofjHcErXI"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "She's Got a Problem",
                                 "artist": "Fountains Of Wayne",
                                 "album": "Fountains of Wayne",
@@ -1347,7 +1347,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Hazy Shade of Winter",
                                 "artist": "The Bangles",
                                 "album": "Less Than Zero",
@@ -1355,7 +1355,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=FQ4hnkdh9rM"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Esmerelda",
                                 "artist": "Ben Howard",
                                 "album": "The Burgh Island EP",
@@ -1363,7 +1363,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=McNkKPwZXws"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "The Fox",
                                 "artist": "O+S",
                                 "album": "O+S",
@@ -1371,7 +1371,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=klaaqsjzWvU"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "White Winter Hymnal",
                                 "artist": "Fleet Foxes",
                                 "album": "Fleet Foxes",
@@ -1379,7 +1379,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=bepPFNnaviA"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Années de pèlerinage S.160",
                                 "artist": "Franz Liszt",
                                 "album": "Liszt: Années de Pèlerinage",
@@ -1387,7 +1387,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=HR1RAZUQ5SY"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Winter Song",
                                 "artist": "Billie Marten",
                                 "album": "It's Coming on Christmas",
@@ -1395,7 +1395,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=RYbqFgbLfZ0"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "What Else Is There ?",
                                 "artist": "Röyksopp",
                                 "album": "The Understanding",
@@ -1403,7 +1403,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=M-6RFpKIV4w"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "粉雪",
                                 "artist": "Remioromen",
                                 "album": "HORIZON",
@@ -1411,7 +1411,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=YmP4oHHnLd8"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "A Hazy Shade of Winter",
                                 "artist": "Simon & Garfunkel",
                                 "album": "Bookends",
@@ -1419,7 +1419,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=FQRTpN_UuFs"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "My<Dsmbr",
                                 "artist": "Linkin Park",
                                 "album": "Reanimation",
@@ -1441,7 +1441,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "She Used to Be Mine",
                                 "artist": "Jessie Mueller",
                                 "album": "Waitress (Original Broadway Cast Recording)",
@@ -1449,7 +1449,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=A2-aUNmYNLM"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Perhaps, Perhaps, Perhaps",
                                 "artist": "Doris Day",
                                 "album": "With A Smile And A Song",
@@ -1457,7 +1457,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=hSXptKlK8oM"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "On Track",
                                 "artist": "Tame Impala",
                                 "album": "The Slow Rush",
@@ -1465,7 +1465,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=Lm2F_fKdrIo"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Heartbreaker",
                                 "artist": "Metronomy",
                                 "album": "Nights Out",
@@ -1473,7 +1473,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=skbcSnmGplQ"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Soghati",
                                 "artist": "Hayedeh",
                                 "album": "Kharabati, Hayedeh",
@@ -1481,7 +1481,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=WErtRYXpkE4"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Shampoo Bottles",
                                 "artist": "Peach Pit",
                                 "album": "You and Your Friends",
@@ -1489,7 +1489,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=1e65rEVbZe4"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "I Get Lonely",
                                 "artist": "Janet Jackson",
                                 "album": "The Velvet Rope",
@@ -1497,7 +1497,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=zGu__mPSt6M"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "sad day",
                                 "artist": "FKA twigs",
                                 "album": "MAGDALENE",
@@ -1505,7 +1505,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=pksZAoLext4"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Broken-Hearted Girl",
                                 "artist": "Beyoncé",
                                 "album": "I AM...SASHA FIERCE",
@@ -1513,7 +1513,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=f6ubgwo3Dm0"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Undrunk",
                                 "artist": "Fletcher",
                                 "album": "your ruined new york for me",
@@ -1535,7 +1535,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Doors",
                                 "artist": "Filez",
                                 "album": "Filez",
@@ -1543,7 +1543,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=acxpmVyw17M"
                             },
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Gravity",
                                 "artist": "Pastel",
                                 "album": "Headroom",
@@ -1551,7 +1551,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=ABT9cf5LpYI"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "Hình Như Là",
                                 "artist": "HUB",
                                 "album": "Hình Như Là",
@@ -1559,7 +1559,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=lVSLjfs9x2c"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Plastic Stress",
                                 "artist": "Terranova",
                                 "album": "Close The Door",
@@ -1567,7 +1567,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=SnquthEO314"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "ringtone",
                                 "artist": "100 gecs",
                                 "album": "1000 gecs",
@@ -1575,7 +1575,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=_jg8vs4jmfA"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "Summertime Clothes",
                                 "artist": "Animal Collective",
                                 "album": "Merriweather Post Pavilion",
@@ -1583,7 +1583,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=g2zYxWvKHIQ"
                             },
                             {
-                                "name": "Ternece",
+                                "seeker": "Ternece",
                                 "song": "Ionic Funk (20xx Battle Music)",
                                 "artist": "Machine Girl",
                                 "album": "Wlfgrl",
@@ -1591,7 +1591,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=na3gL8fM_Xw"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "Birthday Cake",
                                 "artist": "Cibo Matto",
                                 "album": "Viva! La Woman",
@@ -1599,7 +1599,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=cfhy1ulJla4"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "The Spirit Of Radio",
                                 "artist": "Rush",
                                 "album": "Permanent Waves",
@@ -1607,7 +1607,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=wPBinohXHLc"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "Virus",
                                 "artist": "Björk",
                                 "album": "Bastards",
@@ -1629,7 +1629,7 @@ var db = {
                     "selections":
                         [
                             {
-                                "name": "Mai",
+                                "seeker": "Mai",
                                 "song": "Someone That You Love",
                                 "artist": "Jarreau Vandal",
                                 "album": "Someone That You Love",
@@ -1637,7 +1637,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=1yqDXybpNH0"
                             },
                             {
-                                "name": "Chris",
+                                "seeker": "Chris",
                                 "song": "Happy Together",
                                 "artist": "The Turtles",
                                 "album": "Happy Together",
@@ -1645,7 +1645,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=BqZ6sRHpWIk"
                             },
                             {
-                                "name": "Terence",
+                                "seeker": "Terence",
                                 "song": "Turn On The Lights",
                                 "artist": "Future",
                                 "album": "Pluto 3D",
@@ -1653,7 +1653,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=4rnkNwFXSNw"
                             },
                             {
-                                "name": "Lauren",
+                                "seeker": "Lauren",
                                 "song": "No Choir",
                                 "artist": "Florence + The Machine",
                                 "album": "High As Hope",
@@ -1661,7 +1661,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=y_c3P-YWLpQ"
                             },
                             {
-                                "name": "Sawaiz",
+                                "seeker": "Sawaiz",
                                 "song": "The Best Day",
                                 "artist": "Taylor Swift",
                                 "album": "Fearless",
@@ -1669,7 +1669,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=VRY0MmcJZlA"
                             },
                             {
-                                "name": "Kasia",
+                                "seeker": "Kasia",
                                 "song": "Lover Girl",
                                 "artist": "Sarah Jaffe",
                                 "album": "Don't Disconnect",
@@ -1677,7 +1677,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=LOnkPcAPkt0"
                             },
                             {
-                                "name": "Andrew",
+                                "seeker": "Andrew",
                                 "song": "All Your Love",
                                 "artist": "Jakob",
                                 "album": "All Your Love",
@@ -1685,7 +1685,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=egWo4nwSw90"
                             },
                             {
-                                "name": "Linh",
+                                "seeker": "Linh",
                                 "song": "beautiful baby",
                                 "artist": "Elizabeth",
                                 "album": "the wonderful world of nature",
@@ -1693,7 +1693,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=uZbITFPMC5I"
                             },
                             {
-                                "name": "Alice",
+                                "seeker": "Alice",
                                 "song": "Your Magic Is Working",
                                 "artist": "of Montreal",
                                 "album": "Satanic Panic In The Attic",
@@ -1701,7 +1701,7 @@ var db = {
                                 "link": "https://www.youtube.com/watch?v=h-RcMfAQGQk"
                             },
                             {
-                                "name": "Manja",
+                                "seeker": "Manja",
                                 "song": "Hey Lover",
                                 "artist": "The Daughters Of Eve",
                                 "album": "Hey Lover / Stand by Me",
@@ -1716,22 +1716,7 @@ var db = {
 }
 
 
-var counter = 0;
-var averageYear = 0;
-for (excursion of db.voyage[0].excursions) {
-    for (selection of excursion.selections) {
-        console.log(selection.year);
-        counter++;
-        averageYear += selection.year;
-    }
-}
-console.log(averageYear);
-
-console.log(averageYear/counter);
-
-function createTable(data) {
-
-}
+var website = document.createElement("html");
 
 
-
+console.log(website);
