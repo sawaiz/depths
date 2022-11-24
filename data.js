@@ -1336,9 +1336,9 @@ var db = {
                 },
                 {
                     "theme": "Winter",
-                    "flavorText": "2021-01-17",
-                    "startDate": "2021-01-23",
-                    "endDate": "Snowy winter is best, the cold gets down to hte bones and there is just some serenity in that.",
+                    "flavorText": "Snowy winter is best, the cold gets down to hte bones and there is just some serenity in that.",
+                    "startDate": "2021-01-17",
+                    "endDate": "2021-01-23",
                     "playlists": {
                         "spotify": "https://open.spotify.com/playlist/0n4cL8HussZ9LP2Byi3aXD",
                         "youtube": "https://www.youtube.com/playlist?list=PLvg5sTo20OUBiJHhplelOlb4HNRF8nFF-",
@@ -1618,7 +1618,7 @@ var db = {
                 },
                 {
                     "theme": "Love",
-                    "flavorText": "Such a romantic, one week is certinly not enough based on my libray.",
+                    "flavorText": "Such a romantic, one week is certinly not enough based on my library.",
                     "startDate": "2021-02-07",
                     "endDate": "2021-02-13",
                     "playlists": {
@@ -1711,12 +1711,123 @@ var db = {
                         ]
                 }
             ]
+        },
+        {
+            "title": "Voyage 2",
+            "header": "2022 - Awaited return.",
+            "year": 2022,
+            "seekers": [
+                { "name": "Mara", "age": "Late 80's", "location": "London" },
+                { "name": "Gautam", "age": "Early 90's", "location": "New York City" },
+                { "name": "Camille", "age": "Early 90's", "location": "Berlin" },
+                { "name": "Lauma", "age": "Late 80's", "location": "Riga" },
+                { "name": "Marec", "age": "Early 90's", "location": "Berlin" },
+                { "name": "Paula", "age": "Late 90's", "location": "Madrid" },
+                { "name": "Céleste", "age": "Late 80's", "location": "Seoul" },
+                { "name": "Marina", "age": "Early 00's", "location": "Berlin" },
+                { "name": "Sawaiz", "age": "Early 90's", "location": "Berlin" },
+                { "name": "Jenia", "age": "Late 80's", "location": "Toronto" }
+            ],
+            "excursions": [
+                {
+                    "theme": "Procrastination",
+                    "flavorText": "Other tasks are always more appealing, in spirt, this was completed well past the deadline.",
+                    "startDate": "2022-11-06",
+                    "endDate": "2022-11-10",
+                    "playlists": {
+                        "spotify": "https://open.spotify.com/playlist/0zUJULWecGroObhCeFdkS8",
+                        "youtube": "https://youtube.com/playlist?list=PLvg5sTo20OUBT8aaXKndqzGplMGAwRuEP&feature=share",
+                        "youtubeMusic": "https://music.youtube.com/playlist?list=PLvg5sTo20OUBT8aaXKndqzGplMGAwRuEP&feature=share",
+                    },
+                    "selections":
+                        [
+                            {
+                                "seeker": "Mara",
+                                "song": "You Think Too Much",
+                                "artist": "Hodge & Simo Cell",
+                                "album": "Drums from the West EP",
+                                "year": 2021,
+                                "link": "https://youtu.be/yjlUepxwzDM"
+                            },
+                            {
+
+                                "seeker": "Gautam",
+                                "song": "Two Weeks",
+                                "artist": "Grizzly Bear",
+                                "album": "Veckatimest",
+                                "year": 2009,
+                                "link": "https://youtu.be/fL970lAORVM"
+                            },
+                            {
+                                "seeker": "Camille",
+                                "song": "d d don't",
+                                "artist": "Kate NV",
+                                "album": "d d don't ",
+                                "year": 2021,
+                                "link": "https://youtu.be/8IxgJLOiJEw"
+                            },
+                            {
+                                "seeker": "Lauma",
+                                "song": "Back To Square One",
+                                "artist": "Paleface",
+                                "album": "The Pale Ontologist",
+                                "year": 2000,
+                                "link": "https://youtu.be/iR6UvuE37yY"
+                            },
+                            {
+                                "seeker": "Paula",
+                                "song": "Time Moves Slow",
+                                "artist": "BADBADNOTGOOD",
+                                "album": "IV",
+                                "year": 2016,
+                                "link": "https://youtu.be/zWYyycn_yCU"
+                            },
+                            {
+                                "seeker": "Sawaiz",
+                                "song": "Do It",
+                                "artist": "Rae Morris",
+                                "album": "Someone Out There",
+                                "year": 2018,
+                                "link": "https://youtu.be/vcpoe9pYPbo"
+                            },
+                            {
+                                "seeker": "Céleste",
+                                "song": "Some",
+                                "artist": "Nils Frahm",
+                                "album": "Solo Remains",
+                                "year": 2015,
+                                "link": "https://youtu.be/jKBP-2egVf8"
+                            },
+                            {
+                                "seeker": "Marina",
+                                "song": "Gotta Get Thru This",
+                                "artist": "Daniel Bedingfield",
+                                "album": "Gotta Get Thru This",
+                                "year": 2002,
+                                "link": "https://youtu.be/aeCnEY_AemU"
+                            },
+                            {
+                                "seeker": "Marec",
+                                "song": "Feather",
+                                "artist": "Nujabes",
+                                "album": "Modal Soul",
+                                "year": 2005,
+                                "link": "https://youtu.be/4yX8ZUgraOo"
+                            },
+                            {
+                                "seeker": "Jenia",
+                                "song": "Es Vedra",
+                                "artist": "DP-6",
+                                "album": "Formentera",
+                                "year": 2018,
+                                "link": "https://youtu.be/DT4xCLqGY6I"
+                            }
+                        ]
+                }
+            ]
         }
     ]
 }
 
 
-var website = document.createElement("html");
 
-
-console.log(website);
