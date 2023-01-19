@@ -1726,7 +1726,7 @@ var db = {
                 { "name": "Céleste", "age": "Late 80's", "location": "Seoul" },
                 { "name": "Marina", "age": "Early 00's", "location": "Berlin" },
                 { "name": "Sawaiz", "age": "Early 90's", "location": "Berlin" },
-                { "name": "Jenia", "age": "Late 80's", "location": "Toronto" }
+                { "name": "Terence", "age": "Late 80's", "location": "Miami" },
             ],
             "excursions": [
                 {
@@ -1736,7 +1736,7 @@ var db = {
                     "endDate": "2022-11-10",
                     "playlists": {
                         "spotify": "https://open.spotify.com/playlist/0zUJULWecGroObhCeFdkS8",
-                        "youtube": "https://youtube.com/playlist?list=PLvg5sTo20OUBT8aaXKndqzGplMGAwRuEP&feature=share",
+                        "youtube": "https://youtube.com/playlist?list=PLvg5sTo20OUBT8aaXKndqzGplMGAwRuEP",
                         "youtubeMusic": "https://music.youtube.com/playlist?list=PLvg5sTo20OUBT8aaXKndqzGplMGAwRuEP&feature=share",
                     },
                     "selections":
@@ -1762,7 +1762,7 @@ var db = {
                                 "seeker": "Camille",
                                 "song": "d d don't",
                                 "artist": "Kate NV",
-                                "album": "d d don't ",
+                                "album": "d d don't",
                                 "year": 2021,
                                 "link": "https://youtu.be/8IxgJLOiJEw"
                             },
@@ -1815,12 +1815,107 @@ var db = {
                                 "link": "https://youtu.be/4yX8ZUgraOo"
                             },
                             {
-                                "seeker": "Jenia",
-                                "song": "Es Vedra",
-                                "artist": "DP-6",
-                                "album": "Formentera",
-                                "year": 2018,
-                                "link": "https://youtu.be/DT4xCLqGY6I"
+                                "seeker": "Terence",
+                                "song": "Velvet and Grace",
+                                "artist": "Orchestra Heinz Kiessling",
+                                "album": "Jet Set",
+                                "year": 2019,
+                                "link": "https://youtu.be/6AzImKchKsU"
+                            }
+                        ]
+                },
+                {
+                    "theme": "Reconstruction",
+                    "flavorText": "To rebuild after a loss, from devestation to rebirth.",
+                    "startDate": "2022-11-06",
+                    "endDate": "2023-01-19",
+                    "playlists": {
+                        "spotify": "https://open.spotify.com/playlist/0kbSciwk1mW6RL1S8Jho1H",
+                        "youtube": "https://youtube.com/playlist?list=PLvg5sTo20OUAHxkEUfnJG8FIS0jRLK8I0",
+                        "youtubeMusic": "https://music.youtube.com/playlist?list=PLvg5sTo20OUAHxkEUfnJG8FIS0jRLK8I0",
+                    },
+                    "selections":
+                        [
+                            {
+                                "seeker": "Camille",
+                                "song": "the disintegration loops",
+                                "artist": "William Basinksi",
+                                "album": "the disintegration loops",
+                                "year": 2002,
+                                "link": "https://youtu.be/5_22m8rgTik"
+                            },
+                            {
+
+                                "seeker": "Céleste",
+                                "song": "I've Never Been to Me",
+                                "artist": "Charlene",
+                                "album": "I've Never Been to Me",
+                                "year": 1976,
+                                "link": "https://youtu.be/cjpuAw8ZMAA"
+                            },
+                            {
+                                "seeker": "Gautam",
+                                "song": "One Man Wrecking Machine",
+                                "artist": "Guster",
+                                "album": "Ganging Up On The Sun",
+                                "year": 2006,
+                                "link": "https://youtu.be/qR9Qdlihl_A"
+                            },
+                            {
+                                "seeker": "Sawaiz",
+                                "song": "Front Porch",
+                                "artist": "Joy WIlliams",
+                                "album": "Front Porch",
+                                "year": 2019,
+                                "link": "https://youtu.be/kzyFq_01ODo"
+                            },
+                            {
+                                "seeker": "Lauma",
+                                "song": "Democracy, I Was Thirsty",
+                                "artist": "Soul Keita",
+                                "album": "Democracy",
+                                "year": 2009,
+                                "link": "https://youtu.be/Bl7yqa_p3Mg"
+                            },
+                            {
+                                "seeker": "Marec",
+                                "song": "义勇军进行曲",
+                                "artist": "新时代艺术团室内乐队",
+                                "album": "东方红 大型歌舞曲 (上)",
+                                "year": 1999,
+                                "link": "https://youtu.be/JXq_Re25Ut0"
+                            },
+                            {
+                                "seeker": "Mara",
+                                "song": "Construct",
+                                "artist": "Slam",
+                                "album": "Louder Than Chaos, Vol. 4",
+                                "year": 2021,
+                                "link": "https://youtu.be/mdPF9UOGpeM"
+                            },
+                            {
+                                "seeker": "Marina",
+                                "song": "Running Miles",
+                                "artist": "Hippie Sabotage",
+                                "album": "Running Miles",
+                                "year": 2017,
+                                "link": "https://youtu.be/lwXynZewLyg"
+                            },
+                            {
+                                "seeker": "Terence",
+                                "song": "Clockworks",
+                                "artist": "Meshuggah",
+                                "album": "The Violent Sleep of Reason Soul",
+                                "year": 2016,
+                                "link": "https://youtu.be/QIao9RrOFbY"
+                            },
+                            {
+                                "seeker": "Paula",
+                                "song": "Work Hard",
+                                "artist": "Depeche Mode",
+                                "album": "Construction Time Again",
+                                "year": 2007,
+                                "link": "https://youtu.be/5x4L8mxWlCk"
                             }
                         ]
                 }
