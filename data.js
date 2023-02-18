@@ -1918,6 +1918,101 @@ var db = {
                                 "link": "https://youtu.be/5x4L8mxWlCk"
                             }
                         ]
+                },
+                {
+                    "theme": "Ominous",
+                    "flavorText": "The unsettling feeling.",
+                    "startDate": "2023-01-22",
+                    "endDate": "2023-02-16", 
+                    "playlists": {
+                        "spotify": "https://open.spotify.com/playlist/0ll3dT53IIroVig6erfRVE",
+                        "youtube": "https://youtube.com/playlist?list=PLvg5sTo20OUA-Wc0nz1FEY-NTlvKAzY07",
+                        "youtubeMusic": "https://music.youtube.com/playlist?list=PLvg5sTo20OUA-Wc0nz1FEY-NTlvKAzY07",
+                    },
+                    "selections":
+                        [
+                            {
+                                "seeker": "Lauma",
+                                "song": "I Put A Spell On You",
+                                "artist": "Marilyn Manson",
+                                "album": "Smells Like Children",
+                                "year": 1995,
+                                "link": "https://youtu.be/4qkrsodwJGY"
+                            },
+                            {
+
+                                "seeker": "Céleste",
+                                "song": "Never let me go ",
+                                "artist": "Rachel Portman",
+                                "album": "Never Let Me Go",
+                                "year": 2010,
+                                "link": "https://youtu.be/vQHq0qOtklo"
+                            },
+                            {
+                                "seeker": "Marina",
+                                "song": "Killer",
+                                "artist": "Saturnhead",
+                                "album": "Saturnhead, California",
+                                "year": 2007,
+                                "link": "https://youtu.be/b9Cxj-0fKpM"
+                            },
+                            {
+                                "seeker": "Marec",
+                                "song": "Amber Decay",
+                                "artist": "Kangding Ray",
+                                "album": "Solens Arc",
+                                "year": 2014,
+                                "link": "https://youtu.be/tRC646agBxs"
+                            },
+                            {
+                                "seeker": "Paula",
+                                "song": "Jazz Thieves",
+                                "artist": "Depeche Mode",
+                                "album": "Ultra",
+                                "year": 1997,
+                                "link": "https://youtu.be/7e4EwFsF5zc"
+                            },
+                            {
+                                "seeker": "Terence",
+                                "song": "Man The Ramparts",
+                                "artist": "Botch",
+                                "album": "We Are the Romans",
+                                "year": 1999,
+                                "link": "https://youtu.be/oventLxPexY"
+                            },
+                            {
+                                "seeker": "Camille",
+                                "song": "opium",
+                                "artist": "christoph de babalon",
+                                "album": "If You're Into It I'm Out of It",
+                                "year": 1997,
+                                "link": "https://youtu.be/H3-_4Vo2KDc"
+                            },
+                            {
+                                "seeker": "Sawaiz",
+                                "song": "Sicko",
+                                "artist": "Cloves",
+                                "album": "Nightmare on Elmfield Road",
+                                "year": 2021,
+                                "link": "https://youtu.be/gdUNC12msjg"
+                            },
+                            {
+                                "seeker": "Gautam",
+                                "song": "Miss California",
+                                "artist": "Jack's Mannequin",
+                                "album": "The Glass Passenger",
+                                "year": 2008,
+                                "link": "https://youtu.be/1OxW5c42o4s"
+                            },
+                            {
+                                "seeker": "Mara",
+                                "song": "On The Nature Of Daylight",
+                                "artist": "Max Richter",
+                                "album": "The Blue Notebooks",
+                                "year": 2004,
+                                "link": "https://youtu.be/tUMc_-Bcunk"
+                            }
+                        ]
                 }
             ]
         }
