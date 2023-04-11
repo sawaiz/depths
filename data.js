@@ -2013,6 +2013,100 @@ var db = {
                                 "link": "https://youtu.be/tUMc_-Bcunk"
                             }
                         ]
+                },
+                {
+                    "theme": "Expanse",
+                    "flavorText": "Off into infinity, somethimes notingess, sometimes everything.",
+                    "startDate": "2023-04-02",
+                    "endDate": "2023-04-06", 
+                    "playlists": {
+                        "spotify": "https://open.spotify.com/playlist/6dF7CxXi3IOrC7FzeWPCJ2?si=642eb23db6994855",
+                        "youtube": "https://youtube.com/playlist?list=PLvg5sTo20OUDzif7L7BXZ4Me-z62y_4SC",
+                        "youtubeMusic": "https://music.youtube.com/playlist?list=PLvg5sTo20OUDzif7L7BXZ4Me-z62y_4SC",
+                    },
+                    "selections":
+                        [
+                            {
+                                "seeker": "Sawaiz",
+                                "song": "The Adventure",
+                                "artist": "Angels and Airwaves",
+                                "album": "We Don't Need To Wisper",
+                                "year": 2006,
+                                "link" : "https://youtu.be/JMl8cQjBfqk"
+                            },
+                            {
+                                "seeker": "Céleste",
+                                "song": "Electric Counterpoint: III. Fast",
+                                "artist": "Steve Reich",
+                                "album": "Different Trains / Electric Counterpoint",
+                                "year": 2006,
+                                "link" : "https://youtu.be/FUdh9ddJ4o8"
+                            },
+                            {
+                                "seeker": "Terence",
+                                "song": "Spem in Alium",
+                                "artist": "The Tallis Scholars",
+                                "album": "Thomas Tallis - Spem in Alium",
+                                "year": 1985,
+                                "link" : "https://youtu.be/CkL1hdL40i0"
+                            },
+                            {
+                                "seeker": "Gautam",
+                                "song": "Dreamland",
+                                "artist": "Glass Animals",
+                                "album": "Dreamland",
+                                "year": 2020,
+                                "link" : "https://youtu.be/uN3z972TxY4"
+                            },
+                            {
+                                "seeker": "Lauma",
+                                "song": "Space Oddity",
+                                "artist": "David Bowie",
+                                "album": "David Bowie",
+                                "year": 1969,
+                                "link" : "https://youtu.be/5PgdZDXg0z0"
+                            },
+                            {
+                                "seeker": "Marina",
+                                "song": "Forest",
+                                "artist": "twenty one pilots",
+                                "album": "Regional at Best",
+                                "year": 2011,
+                                "link" : "https://youtu.be/fm5kiVEklGA"
+                            },
+                            {
+                                "seeker": "Paula",
+                                "song": "Sputnik",
+                                "artist": "Public Service Broadcasting",
+                                "album": "The Race For Space",
+                                "year": 2015,
+                                "link" : "https://youtu.be/fXbsfk29TrQ"
+                            },
+                            {
+                                "seeker": "Marec",
+                                "song": "Praise The Lord",
+                                "artist": "A$AP Rocky",
+                                "album": "Praise The Lord",
+                                "year": 2022,
+                                "link" : "https://youtu.be/d00At2zWDKU"
+                            },
+                            {
+                                "seeker": "Camille",
+                                "song": "Different Trains: America, Before the War",
+                                "artist": "Steve Reich",
+                                "album": "Different Trains / Electric Counterpoint",
+                                "year": 2006,
+                                "link" : "https://youtu.be/-xKH7t_MXT8"
+                            },
+                            {
+                                "seeker": "Mara",
+                                "song": "Radius",
+                                "artist": "Tommy Four Seven",
+                                "album": "Veer",
+                                "year": 2019,
+                                "link" : "https://youtu.be/6tgdASa2u4w"
+                            }
+                        ]
                 }
             ]
         }
